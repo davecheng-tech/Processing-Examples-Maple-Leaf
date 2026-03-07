@@ -2,11 +2,11 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Sketch",
+      "label": "Run Current File",
       "type": "shell",
-      "command": "javac -cp lib/core.jar -d bin src/Sketch.java && java -cp bin:lib/core.jar Sketch",
+      "command": "javac -cp lib/core.jar -d bin src/${fileBasename} && java -cp bin:lib/core.jar ${fileBasenameNoExtension}",
       "windows": {
-        "command": "javac -cp lib\\core.jar -d bin src\\Sketch.java && java -cp bin;lib\\core.jar Sketch",
+        "command": "javac -cp lib\\core.jar -d bin src\\${fileBasename} && java -cp bin;lib\\core.jar ${fileBasenameNoExtension}",
         "options": {
           "shell": {
             "executable": "cmd.exe",
