@@ -2,7 +2,7 @@
 
 Example programs that progressively build up a Canadian flag drawing using the Processing graphics library.
 
-![](.media/maple_leaf.jpg)
+![Canadian Flag](.media/maple_leaf.png)
 
 ## Examples
 
