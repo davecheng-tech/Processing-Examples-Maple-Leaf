@@ -10,9 +10,11 @@ public class FixedCoordinates extends PApplet {
         PApplet.main("FixedCoordinates");
     }
 
+
     public void settings() {
         size(900, 500);  // Canvas size
     }
+
 
     public void setup() {
         background(255, 255, 255);  // White
@@ -56,6 +58,7 @@ public class FixedCoordinates extends PApplet {
         vertex(414, 118);  // P25 - left of top tip
         endShape(CLOSE);   // Complete, close the shape
     }
+
 
     /** Loops continuously - use for animation, dynamic drawings */
     public void draw() {
