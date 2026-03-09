@@ -20,6 +20,10 @@ public class FixedCoordinates extends PApplet {
         background(255, 255, 255);  // White
         noStroke();
 
+        // Background, drawn explicitly
+        fill(255, 255, 255);  // White
+        quad(0, 0, 900, 0, 900, 500, 0, 500);
+
         // Vertical bar, left side
         fill(255, 0, 0);  // Red
         rect(0, 0, 200, 500);
